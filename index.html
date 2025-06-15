@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exército Brasileiro - Vendas</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d0d0d;
+      color: white;
+    }
+    header {
+      background-color: #1a1a1a;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      color: #4caf50;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #333;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: block;
+    }
+    nav a:hover {
+      background-color: #4caf50;
+    }
+    .section {
+      padding: 40px;
+      text-align: center;
+    }
+    .produtos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .produto {
+      background-color: #1f1f1f;
+      border-radius: 10px;
+      padding: 20px;
+      width: 200px;
+      box-shadow: 0 0 10px #000;
+    }
+    .produto img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .produto h3 {
+      color: #4caf50;
+    }
+    .botao-compra {
+      background-color: #4caf50;
+      border: none;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    .botao-compra:hover {
+      background-color: #45a049;
+    }
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SUPORTE - EXÉRCITO BRASILEIRO</h1>
+  </header>
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section class="section" id="inicio">
+    <h2>Bem-vindo ao site oficial de vendas do EB</h2>
+    <p>Aqui você encontra patentes, cargos e produtos especiais para seu clã do Exército Brasileiro no Roblox.</p>
+  </section>
+
+  <section class="section" id="produtos">
+    <h2>Produtos em Destaque</h2>
+    <div class="produtos">
+      <div class="produto">
+        <img src="https://via.placeholder.com/200x150" alt="Produto 1">
+        <h3>Patente Sargento</h3>
+        <p>R$ 10,00</p>
+        <button class="botao-compra" onclick="window.open('https://pagamento.com/sargento','_blank')">Comprar</button>
+      </div>
+      <div class="produto">
+        <img src="https://via.placeholder.com/200x150" alt="Produto 2">
+        <h3>General Supremo</h3>
+        <p>R$ 50,00</p>
+        <button class="botao-compra" onclick="window.open('https://pagamento.com/general','_blank')">Comprar</button>
+      </div>
+      <div class="produto">
+        <img src="https://via.placeholder.com/200x150" alt="Produto 3">
+        <h3>Farda Exclusiva</h3>
+        <p>R$ 20,00</p>
+        <button class="botao-compra" onclick="window.open('https://pagamento.com/farda','_blank')">Comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contato">
+    <h2>Contato</h2>
+    <p>Entre em contato pelo nosso <a href="https://discord.gg/seuexercito" target="_blank" style="color: #4caf50; text-decoration: underline;">servidor do Discord</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Exército Brasileiro - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
